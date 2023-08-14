@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "343016463798",
+    "project_id": "fir-auth-14693",
+    "storage_bucket": "fir-auth-14693.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343016463798:android:a043783a6f0bfafac97517",
+        "android_client_info": {
+          "package_name": "com.example.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343016463798-a6hj2ranvcotfv3qbh57gqf3ca3p5cu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaakJo6mBS7usvg6yoSaiEafBcSEugg7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343016463798-a6hj2ranvcotfv3qbh57gqf3ca3p5cu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
