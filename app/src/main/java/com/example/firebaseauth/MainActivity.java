@@ -47,25 +47,9 @@ public class MainActivity extends AppCompatActivity {
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(getApplicationContext(), "Faillur", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Fail", Toast.LENGTH_LONG).show();
                     }
                 });
-        db.collection("users")
-                .get()
-                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
-                    @Override
-                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
-                        if (task.isSuccessful()){
-                            for (QueryDocumentSnapshot document : task.getResult()){
-                                Log.d("Message", document.getId() + " => " + document.getData());
 
-                            }
-                        }
-                        else{
-                            Log.w("Message", "Error getting documents.", task.getException());
-
-                        }
-                    }
-                });
     }
 }
